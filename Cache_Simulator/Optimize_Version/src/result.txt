@@ -1,0 +1,60 @@
+./cache_simulator -I ../trace2017/01-mcf-gem5-xcg.trace
+Total L1 access counter:232611
+Total L1 access cycle:3739913
+Total L1 miss num:46628
+Total L1 replace num:46116
+Total L1 miss rate:0.200455
+Total L2 access counter:56168
+Total L2 access cycle:3042080
+Total L2 miss num:22259
+Total L2 replace num:18163
+Total L2 miss rate:0.396293
+Total Mem access counter:24804
+Total Mem access cycle:2480400
+AMAT:12.948438
+
+./cache_simulator -I ../trace2017/01-mcf-gem5-xcg.trace -LIRS l1 -LIRS l2 -PNUM l1 -1 -PNUM l2 2
+Total L1 access counter:232611
+Total L1 access cycle:2853267
+Total L1 miss num:39007
+Total L1 replace num:43457
+Total L1 miss rate:0.167692
+Total L2 access counter:46256
+Total L2 access cycle:2190760
+Total L2 miss num:16050
+Total L2 replace num:28917
+Total L2 miss rate:0.346982
+Total Mem access counter:17282
+Total Mem access cycle:1728200
+AMAT:10.495530
+
+./cache_simulator -I ../trace2017/02-stream-gem5-xaa.trace
+Total L1 access counter:162896
+Total L1 access cycle:3043008
+Total L1 miss num:18473
+Total L1 replace num:17961
+Total L1 miss rate:0.113404
+Total L2 access counter:24462
+Total L2 access cycle:2554320
+Total L2 miss num:18473
+Total L2 replace num:14377
+Total L2 miss rate:0.755171
+Total Mem access counter:23097
+Total Mem access cycle:2309700
+AMAT:12.697954
+
+./cache_simulator -I ../trace2017/02-stream-gem5-xaa.trace -LIRS l1 -LIRS l2 -PNUM l1 -1 -PNUM l2 2
+Total L1 access counter:162896
+Total L1 access cycle:992516
+Total L1 miss num:3699
+Total L1 replace num:17961
+Total L1 miss rate:0.022708
+Total L2 access counter:9687
+Total L2 access cycle:741070
+Total L2 miss num:4903
+Total L2 replace num:9394
+Total L2 miss rate:0.506142
+Total Mem access counter:6442
+Total Mem access cycle:644200
+AMAT:4.376412
+
