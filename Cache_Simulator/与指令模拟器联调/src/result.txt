@@ -1,0 +1,631 @@
+./my_simulator -I ../test_src/test1 -P -E ../test_src/test1_elf.txt
+Pipeline Mode
+Register:
+[ 0][ 0]0x               0  [ 1][ra]0x               0  [ 2][sp]0x         2faf080  [ 3][gp]0x           11d20
+[ 4][tp]0x               0  [ 5][t0]0x               0  [ 6][t1]0x               0  [ 7][t2]0x               0
+[ 8][s0]0x               0  [ 9][s1]0x               0  [10][a0]0x               0  [11][a1]0x               0
+[12][a2]0x               0  [13][a3]0x               0  [14][a4]0x               c  [15][a5]0x               0
+[16][a6]0x               0  [17][a7]0x               0  [18][s2]0x               0  [19][s3]0x               0
+[20][s4]0x               0  [21][s5]0x               0  [22][s6]0x               0  [23][s7]0x               0
+[24][s8]0x               0  [25][s9]0x               0  [26][sa]0x               0  [27][sb]0x               0
+[28][t3]0x               0  [29][t4]0x               0  [30][t5]0x               0  [31][t6]0x               0
+
+Highest 32 Stack: 
+[02faf080] 00000000 [02faf07c] 00000000 [02faf078] 00000000 [02faf074] 00000000
+[02faf070] 00000000 [02faf06c] 00000000 [02faf068] 00000000 [02faf064] 00000000
+[02faf060] 00000000 [02faf05c] 00000000 [02faf058] 00000000 [02faf054] 00000000
+[02faf050] 00000000 [02faf04c] 00000000 [02faf048] 00000000 [02faf044] 00000000
+[02faf040] 00000000 [02faf03c] 00000000 [02faf038] 00000000 [02faf034] 00000000
+[02faf030] 00000000 [02faf02c] 00000000 [02faf028] 00000000 [02faf024] 00000000
+[02faf020] 00000000 [02faf01c] 00000000 [02faf018] 00000000 [02faf014] 00000000
+[02faf010] 00000000 [02faf00c] 00000000 [02faf008] 00000000 [02faf004] 00000000
+
+Variable: 
+[b]: 0000000a 
+[_global_impure_ptr]: 00010dd0 00000000 
+[c]: 0000000c 
+[_impure_ptr]: 00010dd0 00000000 
+[a]: 00000006 
+
+Instruct Num: 28
+Cycle Num   : 518
+CPI         : 18.500000
+Branch hazard num: 0
+Data hazard num  : 28
+
+Analyze on cache l1:
+Total hit = 14
+Total num = 17
+Miss Rate = 0.176471
+Total time = 627 cycles
+Total replacement = 0
+
+Analyze on cache l2:
+Total hit = 0
+Total num = 3
+Miss Rate= 1.000000
+Total time = 598 cycles
+Total replacement = 0
+
+Analyze on cache llc:
+Total hit = 0
+Total num = 3
+Miss Rate = 1.000000
+Total time = 520 cycles
+Total replacement = 0
+
+Analyze on memory:
+Total hit = 3
+Total num = 3
+Miss Rate = 0.000000
+Total time = 300 cycles
+Total replacement = 0
+
+
+./my_simulator -I ../test_src/test2 -P -E ../test_src/test2_elf.txt
+Pipeline Mode
+Register:
+[ 0][ 0]0x               0  [ 1][ra]0x               0  [ 2][sp]0x         2faf080  [ 3][gp]0x           11d20
+[ 4][tp]0x               0  [ 5][t0]0x               0  [ 6][t1]0x               0  [ 7][t2]0x               0
+[ 8][s0]0x               0  [ 9][s1]0x               0  [10][a0]0x               0  [11][a1]0x               0
+[12][a2]0x               0  [13][a3]0x               0  [14][a4]0x               9  [15][a5]0x               0
+[16][a6]0x               0  [17][a7]0x               0  [18][s2]0x               0  [19][s3]0x               0
+[20][s4]0x               0  [21][s5]0x               0  [22][s6]0x               0  [23][s7]0x               0
+[24][s8]0x               0  [25][s9]0x               0  [26][sa]0x               0  [27][sb]0x               0
+[28][t3]0x               0  [29][t4]0x               0  [30][t5]0x               0  [31][t6]0x               0
+
+Highest 32 Stack: 
+[02faf080] 00000000 [02faf07c] 00000000 [02faf078] 00000000 [02faf074] 00000000
+[02faf070] 00000000 [02faf06c] 00000000 [02faf068] 00000000 [02faf064] 00000000
+[02faf060] 00000000 [02faf05c] 00000000 [02faf058] 00000000 [02faf054] 00000000
+[02faf050] 00000000 [02faf04c] 00000000 [02faf048] 00000000 [02faf044] 00000000
+[02faf040] 00000000 [02faf03c] 00000000 [02faf038] 00000000 [02faf034] 00000000
+[02faf030] 00000000 [02faf02c] 00000000 [02faf028] 00000000 [02faf024] 00000000
+[02faf020] 00000000 [02faf01c] 00000000 [02faf018] 00000000 [02faf014] 00000000
+[02faf010] 00000000 [02faf00c] 00000000 [02faf008] 00000000 [02faf004] 00000000
+
+Variable: 
+[b]: 00000007 
+[_global_impure_ptr]: 00010dd0 00000000 
+[c]: 00000009 
+[_impure_ptr]: 00010dd0 00000000 
+[a]: 00000003 
+
+Instruct Num: 28
+Cycle Num   : 518
+CPI         : 18.500000
+Branch hazard num: 0
+Data hazard num  : 28
+
+Analyze on cache l1:
+Total hit = 14
+Total num = 17
+Miss Rate = 0.176471
+Total time = 627 cycles
+Total replacement = 0
+
+Analyze on cache l2:
+Total hit = 0
+Total num = 3
+Miss Rate= 1.000000
+Total time = 598 cycles
+Total replacement = 0
+
+Analyze on cache llc:
+Total hit = 0
+Total num = 3
+Miss Rate = 1.000000
+Total time = 520 cycles
+Total replacement = 0
+
+Analyze on memory:
+Total hit = 3
+Total num = 3
+Miss Rate = 0.000000
+Total time = 300 cycles
+Total replacement = 0
+
+
+./my_simulator -I ../test_src/test3 -P -E ../test_src/test3_elf.txt
+Pipeline Mode
+Register:
+[ 0][ 0]0x               0  [ 1][ra]0x               0  [ 2][sp]0x         2faf080  [ 3][gp]0x           11d20
+[ 4][tp]0x               0  [ 5][t0]0x               0  [ 6][t1]0x               0  [ 7][t2]0x               0
+[ 8][s0]0x               0  [ 9][s1]0x               0  [10][a0]0x               0  [11][a1]0x               0
+[12][a2]0x               0  [13][a3]0x              10  [14][a4]0x               5  [15][a5]0x               0
+[16][a6]0x               0  [17][a7]0x               0  [18][s2]0x               0  [19][s3]0x               0
+[20][s4]0x               0  [21][s5]0x               0  [22][s6]0x               0  [23][s7]0x               0
+[24][s8]0x               0  [25][s9]0x               0  [26][sa]0x               0  [27][sb]0x               0
+[28][t3]0x               0  [29][t4]0x               0  [30][t5]0x               0  [31][t6]0x               0
+
+Highest 32 Stack: 
+[02faf080] 00000000 [02faf07c] 00000000 [02faf078] 00000000 [02faf074] 00000000
+[02faf070] 00000000 [02faf06c] 00000005 [02faf068] 00000000 [02faf064] 00000000
+[02faf060] 00000000 [02faf05c] 00000000 [02faf058] 00000000 [02faf054] 00000000
+[02faf050] 00000000 [02faf04c] 00000000 [02faf048] 00000000 [02faf044] 00000000
+[02faf040] 00000000 [02faf03c] 00000000 [02faf038] 00000000 [02faf034] 00000000
+[02faf030] 00000000 [02faf02c] 00000000 [02faf028] 00000000 [02faf024] 00000000
+[02faf020] 00000000 [02faf01c] 00000000 [02faf018] 00000000 [02faf014] 00000000
+[02faf010] 00000000 [02faf00c] 00000000 [02faf008] 00000000 [02faf004] 00000000
+
+Variable: 
+[_global_impure_ptr]: 00010dd8 00000000 
+[result]: 00000000 00000002 00000006 0000000c 00000014 
+[_impure_ptr]: 00010dd8 00000000 
+
+Instruct Num: 117
+Cycle Num   : 659
+CPI         : 5.632479
+Branch hazard num: 6
+Data hazard num  : 108
+
+Analyze on cache l1:
+Total hit = 43
+Total num = 45
+Miss Rate = 0.044444
+Total time = 530 cycles
+Total replacement = 0
+
+Analyze on cache l2:
+Total hit = 0
+Total num = 2
+Miss Rate= 1.000000
+Total time = 472 cycles
+Total replacement = 0
+
+Analyze on cache llc:
+Total hit = 0
+Total num = 2
+Miss Rate = 1.000000
+Total time = 400 cycles
+Total replacement = 0
+
+Analyze on memory:
+Total hit = 2
+Total num = 2
+Miss Rate = 0.000000
+Total time = 200 cycles
+Total replacement = 0
+
+
+./my_simulator -I ../test_src/test4 -P -E ../test_src/test4_elf.txt
+Pipeline Mode
+Register:
+[ 0][ 0]0x               0  [ 1][ra]0x               0  [ 2][sp]0x         2faf080  [ 3][gp]0x           11d50
+[ 4][tp]0x               0  [ 5][t0]0x               0  [ 6][t1]0x               0  [ 7][t2]0x               0
+[ 8][s0]0x               0  [ 9][s1]0x               0  [10][a0]0x               0  [11][a1]0x               0
+[12][a2]0x               0  [13][a3]0x              10  [14][a4]0x               5  [15][a5]0x               0
+[16][a6]0x               0  [17][a7]0x               0  [18][s2]0x               0  [19][s3]0x               0
+[20][s4]0x               0  [21][s5]0x               0  [22][s6]0x               0  [23][s7]0x               0
+[24][s8]0x               0  [25][s9]0x               0  [26][sa]0x               0  [27][sb]0x               0
+[28][t3]0x               0  [29][t4]0x               0  [30][t5]0x               0  [31][t6]0x               0
+
+Highest 32 Stack: 
+[02faf080] 00000000 [02faf07c] 00000000 [02faf078] 00000000 [02faf074] 00000000
+[02faf070] 00000000 [02faf06c] 00000005 [02faf068] 00000000 [02faf064] 00000000
+[02faf060] 00000000 [02faf05c] 00000000 [02faf058] 00000000 [02faf054] 00000000
+[02faf050] 00000000 [02faf04c] 00000000 [02faf048] 00000000 [02faf044] 00000000
+[02faf040] 00000000 [02faf03c] 00000000 [02faf038] 00000000 [02faf034] 00000000
+[02faf030] 00000000 [02faf02c] 00000000 [02faf028] 00000000 [02faf024] 00000000
+[02faf020] 00000000 [02faf01c] 00000000 [02faf018] 00000000 [02faf014] 00000000
+[02faf010] 00000000 [02faf00c] 00000000 [02faf008] 00000000 [02faf004] 00000000
+
+Variable: 
+[sum]: 00000028 
+[_global_impure_ptr]: 00010e08 00000000 
+[result]: 00000000 00000002 00000006 0000000c 00000014 
+[_impure_ptr]: 00010e08 00000000 
+
+Instruct Num: 162
+Cycle Num   : 1054
+CPI         : 6.506173
+Branch hazard num: 6
+Data hazard num  : 158
+
+Analyze on cache l1:
+Total hit = 61
+Total num = 65
+Miss Rate = 0.061538
+Total time = 800 cycles
+Total replacement = 0
+
+Analyze on cache l2:
+Total hit = 0
+Total num = 4
+Miss Rate= 1.000000
+Total time = 724 cycles
+Total replacement = 0
+
+Analyze on cache llc:
+Total hit = 0
+Total num = 4
+Miss Rate = 1.000000
+Total time = 640 cycles
+Total replacement = 0
+
+Analyze on memory:
+Total hit = 4
+Total num = 4
+Miss Rate = 0.000000
+Total time = 400 cycles
+Total replacement = 0
+
+
+./my_simulator -I ../test_src/test5 -P -E ../test_src/test5_elf.txt
+Pipeline Mode
+Register:
+[ 0][ 0]0x               0  [ 1][ra]0x               0  [ 2][sp]0x         2faf080  [ 3][gp]0x           11d30
+[ 4][tp]0x               0  [ 5][t0]0x               0  [ 6][t1]0x               0  [ 7][t2]0x               0
+[ 8][s0]0x               0  [ 9][s1]0x               0  [10][a0]0x               0  [11][a1]0x               0
+[12][a2]0x               0  [13][a3]0x              14  [14][a4]0x               6  [15][a5]0x               0
+[16][a6]0x               0  [17][a7]0x               0  [18][s2]0x               0  [19][s3]0x               0
+[20][s4]0x               0  [21][s5]0x               0  [22][s6]0x               0  [23][s7]0x               0
+[24][s8]0x               0  [25][s9]0x               0  [26][sa]0x               0  [27][sb]0x               0
+[28][t3]0x               0  [29][t4]0x               0  [30][t5]0x               0  [31][t6]0x               0
+
+Highest 32 Stack: 
+[02faf080] 00000000 [02faf07c] 00000000 [02faf078] 00000000 [02faf074] 00000000
+[02faf070] 00000000 [02faf06c] 00000006 [02faf068] 00000000 [02faf064] 00000000
+[02faf060] 00000000 [02faf05c] 00000000 [02faf058] 00000000 [02faf054] 00000000
+[02faf050] 00000000 [02faf04c] 00000000 [02faf048] 00000000 [02faf044] 00000000
+[02faf040] 00000000 [02faf03c] 00000000 [02faf038] 00000000 [02faf034] 00000000
+[02faf030] 00000000 [02faf02c] 00000000 [02faf028] 00000000 [02faf024] 00000000
+[02faf020] 00000000 [02faf01c] 00000000 [02faf018] 00000000 [02faf014] 00000000
+[02faf010] 00000000 [02faf00c] 00000000 [02faf008] 00000000 [02faf004] 00000000
+
+Variable: 
+[_global_impure_ptr]: 00010de8 00000000 
+[result]: 00000000 00000001 00000001 00000001 00000001 00000001 
+[_impure_ptr]: 00010de8 00000000 
+
+Instruct Num: 118
+Cycle Num   : 854
+CPI         : 7.237288
+Branch hazard num: 6
+Data hazard num  : 110
+
+Analyze on cache l1:
+Total hit = 43
+Total num = 45
+Miss Rate = 0.044444
+Total time = 530 cycles
+Total replacement = 0
+
+Analyze on cache l2:
+Total hit = 0
+Total num = 2
+Miss Rate= 1.000000
+Total time = 472 cycles
+Total replacement = 0
+
+Analyze on cache llc:
+Total hit = 0
+Total num = 2
+Miss Rate = 1.000000
+Total time = 400 cycles
+Total replacement = 0
+
+Analyze on memory:
+Total hit = 2
+Total num = 2
+Miss Rate = 0.000000
+Total time = 200 cycles
+Total replacement = 0
+
+
+./my_simulator -I ../test_src/test6 -P -E ../test_src/test6_elf.txt
+Pipeline Mode
+Register:
+[ 0][ 0]0x               0  [ 1][ra]0x               0  [ 2][sp]0x         2faf080  [ 3][gp]0x           11d00
+[ 4][tp]0x               0  [ 5][t0]0x               0  [ 6][t1]0x               0  [ 7][t2]0x               0
+[ 8][s0]0x               0  [ 9][s1]0x               0  [10][a0]0x               0  [11][a1]0x               0
+[12][a2]0x               0  [13][a3]0x               0  [14][a4]0x              12  [15][a5]0x               0
+[16][a6]0x               0  [17][a7]0x               0  [18][s2]0x               0  [19][s3]0x               0
+[20][s4]0x               0  [21][s5]0x               0  [22][s6]0x               0  [23][s7]0x               0
+[24][s8]0x               0  [25][s9]0x               0  [26][sa]0x               0  [27][sb]0x               0
+[28][t3]0x               0  [29][t4]0x               0  [30][t5]0x               0  [31][t6]0x               0
+
+Highest 32 Stack: 
+[02faf080] 00000000 [02faf07c] 00000000 [02faf078] 00000000 [02faf074] 00000000
+[02faf070] 00000000 [02faf06c] 00000012 [02faf068] 00000000 [02faf064] 00000000
+[02faf060] 00000000 [02faf05c] 00000000 [02faf058] 00000000 [02faf054] 00000000
+[02faf050] 00000000 [02faf04c] 00000000 [02faf048] 00000000 [02faf044] 00000000
+[02faf040] 00000000 [02faf03c] 00000000 [02faf038] 00000000 [02faf034] 00000000
+[02faf030] 00000000 [02faf02c] 00000000 [02faf028] 00000000 [02faf024] 00000000
+[02faf020] 00000000 [02faf01c] 00000000 [02faf018] 00000000 [02faf014] 00000000
+[02faf010] 00000000 [02faf00c] 00000000 [02faf008] 00000000 [02faf004] 00000000
+
+Variable: 
+[temp]: 00000001 
+[_global_impure_ptr]: 00010db0 00000000 
+[result]: 0000000f 
+[_impure_ptr]: 00010db0 00000000 
+
+Instruct Num: 68
+Cycle Num   : 704
+CPI         : 10.352941
+Branch hazard num: 6
+Data hazard num  : 60
+
+Analyze on cache l1:
+Total hit = 33
+Total num = 35
+Miss Rate = 0.057143
+Total time = 520 cycles
+Total replacement = 0
+
+Analyze on cache l2:
+Total hit = 0
+Total num = 2
+Miss Rate= 1.000000
+Total time = 472 cycles
+Total replacement = 0
+
+Analyze on cache llc:
+Total hit = 0
+Total num = 2
+Miss Rate = 1.000000
+Total time = 400 cycles
+Total replacement = 0
+
+Analyze on memory:
+Total hit = 2
+Total num = 2
+Miss Rate = 0.000000
+Total time = 200 cycles
+Total replacement = 0
+
+
+./my_simulator -I ../test_src/test7 -P -E ../test_src/test7_elf.txt
+Pipeline Mode
+Register:
+[ 0][ 0]0x               0  [ 1][ra]0x               0  [ 2][sp]0x         2faf080  [ 3][gp]0x           11d30
+[ 4][tp]0x               0  [ 5][t0]0x               0  [ 6][t1]0x               0  [ 7][t2]0x               0
+[ 8][s0]0x               0  [ 9][s1]0x               0  [10][a0]0x               0  [11][a1]0x               0
+[12][a2]0x               0  [13][a3]0x              14  [14][a4]0x               6  [15][a5]0x               0
+[16][a6]0x               0  [17][a7]0x               0  [18][s2]0x               0  [19][s3]0x               0
+[20][s4]0x               0  [21][s5]0x               0  [22][s6]0x               0  [23][s7]0x               0
+[24][s8]0x               0  [25][s9]0x               0  [26][sa]0x               0  [27][sb]0x               0
+[28][t3]0x               0  [29][t4]0x               0  [30][t5]0x               0  [31][t6]0x               0
+
+Highest 32 Stack: 
+[02faf080] 00000000 [02faf07c] 00000000 [02faf078] 00000000 [02faf074] 00000000
+[02faf070] 00000000 [02faf06c] 00000006 [02faf068] 00000000 [02faf064] 00000000
+[02faf060] 00000000 [02faf05c] 00000000 [02faf058] 00000000 [02faf054] 00000000
+[02faf050] 00000000 [02faf04c] 00000000 [02faf048] 00000000 [02faf044] 00000000
+[02faf040] 00000000 [02faf03c] 00000000 [02faf038] 00000000 [02faf034] 00000000
+[02faf030] 00000000 [02faf02c] 00000000 [02faf028] 00000000 [02faf024] 00000000
+[02faf020] 00000000 [02faf01c] 00000000 [02faf018] 00000000 [02faf014] 00000000
+[02faf010] 00000000 [02faf00c] 00000000 [02faf008] 00000000 [02faf004] 00000000
+
+Variable: 
+[temp]: 000000f0 
+[_global_impure_ptr]: 00010de8 00000000 
+[result]: 00000001 00000003 00000004 00000005 00000006 00000007 
+[_impure_ptr]: 00010de8 00000000 
+
+Instruct Num: 132
+Cycle Num   : 839
+CPI         : 6.356061
+Branch hazard num: 6
+Data hazard num  : 128
+
+Analyze on cache l1:
+Total hit = 51
+Total num = 54
+Miss Rate = 0.055556
+Total time = 664 cycles
+Total replacement = 0
+
+Analyze on cache l2:
+Total hit = 0
+Total num = 3
+Miss Rate= 1.000000
+Total time = 598 cycles
+Total replacement = 0
+
+Analyze on cache llc:
+Total hit = 0
+Total num = 3
+Miss Rate = 1.000000
+Total time = 520 cycles
+Total replacement = 0
+
+Analyze on memory:
+Total hit = 3
+Total num = 3
+Miss Rate = 0.000000
+Total time = 300 cycles
+Total replacement = 0
+
+
+./my_simulator -I ../test_src/test8 -P -E ../test_src/test8_elf.txt
+Pipeline Mode
+Register:
+[ 0][ 0]0x               0  [ 1][ra]0x               0  [ 2][sp]0x         2faf080  [ 3][gp]0x           11da0
+[ 4][tp]0x               0  [ 5][t0]0x               0  [ 6][t1]0x               0  [ 7][t2]0x               0
+[ 8][s0]0x               0  [ 9][s1]0x               0  [10][a0]0x               0  [11][a1]0x               0
+[12][a2]0x               0  [13][a3]0x               0  [14][a4]0x              f0  [15][a5]0x               0
+[16][a6]0x               0  [17][a7]0x               0  [18][s2]0x               0  [19][s3]0x               0
+[20][s4]0x               0  [21][s5]0x               0  [22][s6]0x               0  [23][s7]0x               0
+[24][s8]0x               0  [25][s9]0x               0  [26][sa]0x               0  [27][sb]0x               0
+[28][t3]0x               0  [29][t4]0x               0  [30][t5]0x               0  [31][t6]0x               0
+
+Highest 32 Stack: 
+[02faf080] 00000000 [02faf07c] 00000000 [02faf078] 00000000 [02faf074] 00000000
+[02faf070] 00000000 [02faf06c] 00000000 [02faf068] 00000000 [02faf064] 00000000
+[02faf060] 00000000 [02faf05c] 00000000 [02faf058] 00000000 [02faf054] 00000000
+[02faf050] 00000000 [02faf04c] 00000000 [02faf048] 00000000 [02faf044] 00000000
+[02faf040] 00000000 [02faf03c] 00000000 [02faf038] 00000000 [02faf034] 00000000
+[02faf030] 00000000 [02faf02c] 00000000 [02faf028] 00000000 [02faf024] 00000000
+[02faf020] 00000000 [02faf01c] 00000000 [02faf018] 00000000 [02faf014] 00000000
+[02faf010] 00000000 [02faf00c] 00000000 [02faf008] 00000000 [02faf004] 00000000
+
+Variable: 
+[temp]: 000000f0 
+[_global_impure_ptr]: 00010e58 00000000 
+[result]: 00000001 00000003 00000004 00000005 00000006 00000007 
+[_impure_ptr]: 00010e58 00000000 
+
+Instruct Num: 60
+Cycle Num   : 654
+CPI         : 10.900000
+Branch hazard num: 0
+Data hazard num  : 80
+
+Analyze on cache l1:
+Total hit = 19
+Total num = 22
+Miss Rate = 0.136364
+Total time = 632 cycles
+Total replacement = 0
+
+Analyze on cache l2:
+Total hit = 0
+Total num = 3
+Miss Rate= 1.000000
+Total time = 598 cycles
+Total replacement = 0
+
+Analyze on cache llc:
+Total hit = 0
+Total num = 3
+Miss Rate = 1.000000
+Total time = 520 cycles
+Total replacement = 0
+
+Analyze on memory:
+Total hit = 3
+Total num = 3
+Miss Rate = 0.000000
+Total time = 300 cycles
+Total replacement = 0
+
+
+./my_simulator -I ../test_src/test9 -P -E ../test_src/test9_elf.txt
+Pipeline Mode
+Register:
+[ 0][ 0]0x               0  [ 1][ra]0x               0  [ 2][sp]0x         2faf080  [ 3][gp]0x           11d50
+[ 4][tp]0x               0  [ 5][t0]0x               0  [ 6][t1]0x               0  [ 7][t2]0x               0
+[ 8][s0]0x               0  [ 9][s1]0x               0  [10][a0]0x               0  [11][a1]0x               0
+[12][a2]0x               0  [13][a3]0x               0  [14][a4]0x               1  [15][a5]0x               0
+[16][a6]0x               0  [17][a7]0x               0  [18][s2]0x               0  [19][s3]0x               0
+[20][s4]0x               0  [21][s5]0x               0  [22][s6]0x               0  [23][s7]0x               0
+[24][s8]0x               0  [25][s9]0x               0  [26][sa]0x               0  [27][sb]0x               0
+[28][t3]0x               0  [29][t4]0x               0  [30][t5]0x               0  [31][t6]0x               0
+
+Highest 32 Stack: 
+[02faf080] 00000000 [02faf07c] 00000000 [02faf078] 00000000 [02faf074] 00000000
+[02faf070] 00000000 [02faf06c] 00000000 [02faf068] 02faf080 [02faf064] 00000000
+[02faf060] 00000000 [02faf05c] 00000000 [02faf058] 00000000 [02faf054] 00000000
+[02faf050] 00000000 [02faf04c] 00000000 [02faf048] 00000000 [02faf044] 00000000
+[02faf040] 00000000 [02faf03c] 00000000 [02faf038] 00000000 [02faf034] 00000000
+[02faf030] 00000000 [02faf02c] 00000000 [02faf028] 00000000 [02faf024] 00000000
+[02faf020] 00000000 [02faf01c] 00000000 [02faf018] 00000000 [02faf014] 00000000
+[02faf010] 00000000 [02faf00c] 00000000 [02faf008] 00000000 [02faf004] 00000000
+
+Variable: 
+[b]: 0000000f 
+[_global_impure_ptr]: 00010e00 00000000 
+[c]: 0000000c 
+[_impure_ptr]: 00010e00 00000000 
+[a]: 00000001 
+
+Instruct Num: 33
+Cycle Num   : 432
+CPI         : 13.090909
+Branch hazard num: 2
+Data hazard num  : 23
+
+Analyze on cache l1:
+Total hit = 16
+Total num = 18
+Miss Rate = 0.111111
+Total time = 503 cycles
+Total replacement = 0
+
+Analyze on cache l2:
+Total hit = 0
+Total num = 2
+Miss Rate= 1.000000
+Total time = 472 cycles
+Total replacement = 0
+
+Analyze on cache llc:
+Total hit = 0
+Total num = 2
+Miss Rate = 1.000000
+Total time = 400 cycles
+Total replacement = 0
+
+Analyze on memory:
+Total hit = 2
+Total num = 2
+Miss Rate = 0.000000
+Total time = 200 cycles
+Total replacement = 0
+
+
+./my_simulator -I ../test_src/test10 -P -E ../test_src/test10_elf.txt
+Pipeline Mode
+Register:
+[ 0][ 0]0x               0  [ 1][ra]0x               0  [ 2][sp]0x         2faf080  [ 3][gp]0x           11d10
+[ 4][tp]0x               0  [ 5][t0]0x               0  [ 6][t1]0x               0  [ 7][t2]0x               0
+[ 8][s0]0x               0  [ 9][s1]0x               0  [10][a0]0x               0  [11][a1]0x               0
+[12][a2]0x               0  [13][a3]0x               0  [14][a4]0x               1  [15][a5]0x               0
+[16][a6]0x               0  [17][a7]0x               0  [18][s2]0x               0  [19][s3]0x               0
+[20][s4]0x               0  [21][s5]0x               0  [22][s6]0x               0  [23][s7]0x               0
+[24][s8]0x               0  [25][s9]0x               0  [26][sa]0x               0  [27][sb]0x               0
+[28][t3]0x               0  [29][t4]0x               0  [30][t5]0x               0  [31][t6]0x               0
+
+Highest 32 Stack: 
+[02faf080] 00000000 [02faf07c] 00000000 [02faf078] 00000000 [02faf074] 00000000
+[02faf070] 00000000 [02faf06c] 00000000 [02faf068] 00000000 [02faf064] 00000000
+[02faf060] 00000000 [02faf05c] 00000000 [02faf058] 00000000 [02faf054] 00000000
+[02faf050] 00000000 [02faf04c] 00000000 [02faf048] 00000000 [02faf044] 00000000
+[02faf040] 00000000 [02faf03c] 00000000 [02faf038] 00000000 [02faf034] 00000000
+[02faf030] 00000000 [02faf02c] 00000000 [02faf028] 00000000 [02faf024] 00000000
+[02faf020] 00000000 [02faf01c] 00000000 [02faf018] 00000000 [02faf014] 00000000
+[02faf010] 00000000 [02faf00c] 00000000 [02faf008] 00000000 [02faf004] 00000000
+
+Variable: 
+[b]: 0000000f 
+[_global_impure_ptr]: 00010dc0 00000000 
+[c]: 0000000c 
+[_impure_ptr]: 00010dc0 00000000 
+[a]: 00000001 
+
+Instruct Num: 23
+Cycle Num   : 412
+CPI         : 17.913043
+Branch hazard num: 0
+Data hazard num  : 20
+
+Analyze on cache l1:
+Total hit = 12
+Total num = 14
+Miss Rate = 0.142857
+Total time = 499 cycles
+Total replacement = 0
+
+Analyze on cache l2:
+Total hit = 0
+Total num = 2
+Miss Rate= 1.000000
+Total time = 472 cycles
+Total replacement = 0
+
+Analyze on cache llc:
+Total hit = 0
+Total num = 2
+Miss Rate = 1.000000
+Total time = 400 cycles
+Total replacement = 0
+
+Analyze on memory:
+Total hit = 2
+Total num = 2
+Miss Rate = 0.000000
+Total time = 200 cycles
+Total replacement = 0
+

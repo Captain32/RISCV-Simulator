@@ -1,0 +1,611 @@
+./cache_simulator -I ../trace2019/trace1.txt -CS 15 -A 3 -BS 2
+Total L1 access counter:471061
+Total L1 access cycle:7444205
+Total L1 miss num:5455
+Total L1 replace num:911
+Total L1 miss rate:0.011580
+Total Mem access counter:6119
+Total Mem access cycle:648614
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 15 -A 3 -BS 4
+Total L1 access counter:471061
+Total L1 access cycle:7134608
+Total L1 miss num:2659
+Total L1 replace num:626
+Total L1 miss rate:0.005645
+Total Mem access counter:3679
+Total Mem access cycle:389974
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 15 -A 3 -BS 6
+Total L1 access counter:471061
+Total L1 access cycle:7626626
+Total L1 miss num:775
+Total L1 replace num:263
+Total L1 miss rate:0.001645
+Total Mem access counter:2190
+Total Mem access cycle:232140
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 15 -A 3 -BS 8
+Total L1 access counter:471061
+Total L1 access cycle:12304786
+Total L1 miss num:261
+Total L1 replace num:133
+Total L1 miss rate:0.000554
+Total Mem access counter:2475
+Total Mem access cycle:262350
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 15 -A 3 -BS 10
+Total L1 access counter:471061
+Total L1 access cycle:36918941
+Total L1 miss num:121
+Total L1 replace num:89
+Total L1 miss rate:0.000257
+Total Mem access counter:4191
+Total Mem access cycle:444246
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 18 -A 3 -BS 2
+Total L1 access counter:471061
+Total L1 access cycle:7226989
+Total L1 miss num:5445
+Total L1 replace num:0
+Total L1 miss rate:0.011559
+Total Mem access counter:5445
+Total Mem access cycle:577170
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 18 -A 3 -BS 4
+Total L1 access counter:471061
+Total L1 access cycle:6654131
+Total L1 miss num:2651
+Total L1 replace num:0
+Total L1 miss rate:0.005628
+Total Mem access counter:2651
+Total Mem access cycle:281006
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 18 -A 3 -BS 6
+Total L1 access counter:471061
+Total L1 access cycle:6268053
+Total L1 miss num:758
+Total L1 replace num:0
+Total L1 miss rate:0.001609
+Total Mem access counter:758
+Total Mem access cycle:80348
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 18 -A 3 -BS 8
+Total L1 access counter:471061
+Total L1 access cycle:6165019
+Total L1 miss num:235
+Total L1 replace num:0
+Total L1 miss rate:0.000499
+Total Mem access counter:235
+Total Mem access cycle:24910
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 18 -A 3 -BS 10
+Total L1 access counter:471061
+Total L1 access cycle:6137853
+Total L1 miss num:88
+Total L1 replace num:0
+Total L1 miss rate:0.000187
+Total Mem access counter:88
+Total Mem access cycle:9328
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 22 -A 3 -BS 2
+Total L1 access counter:471061
+Total L1 access cycle:7226989
+Total L1 miss num:5445
+Total L1 replace num:0
+Total L1 miss rate:0.011559
+Total Mem access counter:5445
+Total Mem access cycle:577170
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 22 -A 3 -BS 4
+Total L1 access counter:471061
+Total L1 access cycle:6654131
+Total L1 miss num:2651
+Total L1 replace num:0
+Total L1 miss rate:0.005628
+Total Mem access counter:2651
+Total Mem access cycle:281006
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 22 -A 3 -BS 6
+Total L1 access counter:471061
+Total L1 access cycle:6268053
+Total L1 miss num:758
+Total L1 replace num:0
+Total L1 miss rate:0.001609
+Total Mem access counter:758
+Total Mem access cycle:80348
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 22 -A 3 -BS 8
+Total L1 access counter:471061
+Total L1 access cycle:6165019
+Total L1 miss num:235
+Total L1 replace num:0
+Total L1 miss rate:0.000499
+Total Mem access counter:235
+Total Mem access cycle:24910
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 22 -A 3 -BS 10
+Total L1 access counter:471061
+Total L1 access cycle:6137853
+Total L1 miss num:88
+Total L1 replace num:0
+Total L1 miss rate:0.000187
+Total Mem access counter:88
+Total Mem access cycle:9328
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 25 -A 3 -BS 2
+Total L1 access counter:471061
+Total L1 access cycle:7226989
+Total L1 miss num:5445
+Total L1 replace num:0
+Total L1 miss rate:0.011559
+Total Mem access counter:5445
+Total Mem access cycle:577170
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 25 -A 3 -BS 4
+Total L1 access counter:471061
+Total L1 access cycle:6654131
+Total L1 miss num:2651
+Total L1 replace num:0
+Total L1 miss rate:0.005628
+Total Mem access counter:2651
+Total Mem access cycle:281006
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 25 -A 3 -BS 6
+Total L1 access counter:471061
+Total L1 access cycle:6268053
+Total L1 miss num:758
+Total L1 replace num:0
+Total L1 miss rate:0.001609
+Total Mem access counter:758
+Total Mem access cycle:80348
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 25 -A 3 -BS 8
+Total L1 access counter:471061
+Total L1 access cycle:6165019
+Total L1 miss num:235
+Total L1 replace num:0
+Total L1 miss rate:0.000499
+Total Mem access counter:235
+Total Mem access cycle:24910
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 25 -A 3 -BS 10
+Total L1 access counter:471061
+Total L1 access cycle:6137853
+Total L1 miss num:88
+Total L1 replace num:0
+Total L1 miss rate:0.000187
+Total Mem access counter:88
+Total Mem access cycle:9328
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 15 -A 0 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7949162
+Total L1 miss num:6650
+Total L1 replace num:2424
+Total L1 miss rate:0.014117
+Total Mem access counter:8503
+Total Mem access cycle:901318
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 15 -A 1 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7672336
+Total L1 miss num:5796
+Total L1 replace num:1494
+Total L1 miss rate:0.012304
+Total Mem access counter:7009
+Total Mem access cycle:742954
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 15 -A 2 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7522802
+Total L1 miss num:5751
+Total L1 replace num:1011
+Total L1 miss rate:0.012209
+Total Mem access counter:6505
+Total Mem access cycle:689530
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 15 -A 3 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7481665
+Total L1 miss num:5746
+Total L1 replace num:889
+Total L1 miss rate:0.012198
+Total Mem access counter:6377
+Total Mem access cycle:675962
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 15 -A 4 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7468380
+Total L1 miss num:5745
+Total L1 replace num:839
+Total L1 miss rate:0.012196
+Total Mem access counter:6337
+Total Mem access cycle:671722
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 15 -A 5 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7466841
+Total L1 miss num:5746
+Total L1 replace num:834
+Total L1 miss rate:0.012198
+Total Mem access counter:6332
+Total Mem access cycle:671192
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 16 -A 0 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7514322
+Total L1 miss num:5809
+Total L1 replace num:827
+Total L1 miss rate:0.012332
+Total Mem access counter:6534
+Total Mem access cycle:692604
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 16 -A 1 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7317724
+Total L1 miss num:5738
+Total L1 replace num:239
+Total L1 miss rate:0.012181
+Total Mem access counter:5859
+Total Mem access cycle:621054
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 16 -A 2 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7284383
+Total L1 miss num:5737
+Total L1 replace num:43
+Total L1 miss rate:0.012179
+Total Mem access counter:5754
+Total Mem access cycle:609924
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 16 -A 3 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7278933
+Total L1 miss num:5737
+Total L1 replace num:1
+Total L1 miss rate:0.012179
+Total Mem access counter:5737
+Total Mem access cycle:608122
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 16 -A 4 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7278933
+Total L1 miss num:5737
+Total L1 replace num:0
+Total L1 miss rate:0.012179
+Total Mem access counter:5737
+Total Mem access cycle:608122
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 16 -A 5 -BS 0
+Total L1 access counter:471061
+Total L1 access cycle:7278933
+Total L1 miss num:5737
+Total L1 replace num:0
+Total L1 miss rate:0.012179
+Total Mem access counter:5737
+Total Mem access cycle:608122
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 18 -A 3 -BS 6 -WT 1 -WA 0
+Total L1 access counter:471061
+Total L1 access cycle:30064473
+Total L1 miss num:5438
+Total L1 replace num:0
+Total L1 miss rate:0.011544
+Total Mem access counter:197394
+Total Mem access cycle:20923764
+
+./cache_simulator -I ../trace2019/trace1.txt -CS 18 -A 3 -BS 6 -WT 0 -WA 1
+Total L1 access counter:471061
+Total L1 access cycle:6268053
+Total L1 miss num:758
+Total L1 replace num:0
+Total L1 miss rate:0.001609
+Total Mem access counter:758
+Total Mem access cycle:80348
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 15 -A 3 -BS 2
+Total L1 access counter:177618
+Total L1 access cycle:3193766
+Total L1 miss num:4373
+Total L1 replace num:93
+Total L1 miss rate:0.024620
+Total Mem access counter:4415
+Total Mem access cycle:467990
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 15 -A 3 -BS 4
+Total L1 access counter:177618
+Total L1 access cycle:2752307
+Total L1 miss num:2045
+Total L1 replace num:131
+Total L1 miss rate:0.011513
+Total Mem access counter:2166
+Total Mem access cycle:229596
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 15 -A 3 -BS 6
+Total L1 access counter:177618
+Total L1 access cycle:2757648
+Total L1 miss num:607
+Total L1 replace num:100
+Total L1 miss rate:0.003417
+Total Mem access counter:1032
+Total Mem access cycle:109392
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 15 -A 3 -BS 8
+Total L1 access counter:177618
+Total L1 access cycle:5047195
+Total L1 miss num:204
+Total L1 replace num:76
+Total L1 miss rate:0.001149
+Total Mem access counter:1331
+Total Mem access cycle:141086
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 15 -A 3 -BS 10
+Total L1 access counter:177618
+Total L1 access cycle:24593662
+Total L1 miss num:104
+Total L1 replace num:72
+Total L1 miss rate:0.000586
+Total Mem access counter:2878
+Total Mem access cycle:305068
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 18 -A 3 -BS 2
+Total L1 access counter:177618
+Total L1 access cycle:3181340
+Total L1 miss num:4373
+Total L1 replace num:0
+Total L1 miss rate:0.024620
+Total Mem access counter:4373
+Total Mem access cycle:463538
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 18 -A 3 -BS 4
+Total L1 access counter:177618
+Total L1 access cycle:2707412
+Total L1 miss num:2044
+Total L1 replace num:0
+Total L1 miss rate:0.011508
+Total Mem access counter:2044
+Total Mem access cycle:216664
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 18 -A 3 -BS 6
+Total L1 access counter:177618
+Total L1 access cycle:2420114
+Total L1 miss num:603
+Total L1 replace num:0
+Total L1 miss rate:0.003395
+Total Mem access counter:603
+Total Mem access cycle:63918
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 18 -A 3 -BS 8
+Total L1 access counter:177618
+Total L1 access cycle:2342246
+Total L1 miss num:196
+Total L1 replace num:0
+Total L1 miss rate:0.001103
+Total Mem access counter:196
+Total Mem access cycle:20776
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 18 -A 3 -BS 10
+Total L1 access counter:177618
+Total L1 access cycle:2321132
+Total L1 miss num:79
+Total L1 replace num:0
+Total L1 miss rate:0.000445
+Total Mem access counter:79
+Total Mem access cycle:8374
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 22 -A 3 -BS 2
+Total L1 access counter:177618
+Total L1 access cycle:3181340
+Total L1 miss num:4373
+Total L1 replace num:0
+Total L1 miss rate:0.024620
+Total Mem access counter:4373
+Total Mem access cycle:463538
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 22 -A 3 -BS 4
+Total L1 access counter:177618
+Total L1 access cycle:2707412
+Total L1 miss num:2044
+Total L1 replace num:0
+Total L1 miss rate:0.011508
+Total Mem access counter:2044
+Total Mem access cycle:216664
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 22 -A 3 -BS 6
+Total L1 access counter:177618
+Total L1 access cycle:2420114
+Total L1 miss num:603
+Total L1 replace num:0
+Total L1 miss rate:0.003395
+Total Mem access counter:603
+Total Mem access cycle:63918
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 22 -A 3 -BS 8
+Total L1 access counter:177618
+Total L1 access cycle:2342246
+Total L1 miss num:196
+Total L1 replace num:0
+Total L1 miss rate:0.001103
+Total Mem access counter:196
+Total Mem access cycle:20776
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 22 -A 3 -BS 10
+Total L1 access counter:177618
+Total L1 access cycle:2321132
+Total L1 miss num:79
+Total L1 replace num:0
+Total L1 miss rate:0.000445
+Total Mem access counter:79
+Total Mem access cycle:8374
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 25 -A 3 -BS 2
+Total L1 access counter:177618
+Total L1 access cycle:3181340
+Total L1 miss num:4373
+Total L1 replace num:0
+Total L1 miss rate:0.024620
+Total Mem access counter:4373
+Total Mem access cycle:463538
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 25 -A 3 -BS 4
+Total L1 access counter:177618
+Total L1 access cycle:2707412
+Total L1 miss num:2044
+Total L1 replace num:0
+Total L1 miss rate:0.011508
+Total Mem access counter:2044
+Total Mem access cycle:216664
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 25 -A 3 -BS 6
+Total L1 access counter:177618
+Total L1 access cycle:2420114
+Total L1 miss num:603
+Total L1 replace num:0
+Total L1 miss rate:0.003395
+Total Mem access counter:603
+Total Mem access cycle:63918
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 25 -A 3 -BS 8
+Total L1 access counter:177618
+Total L1 access cycle:2342246
+Total L1 miss num:196
+Total L1 replace num:0
+Total L1 miss rate:0.001103
+Total Mem access counter:196
+Total Mem access cycle:20776
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 25 -A 3 -BS 10
+Total L1 access counter:177618
+Total L1 access cycle:2321132
+Total L1 miss num:79
+Total L1 replace num:0
+Total L1 miss rate:0.000445
+Total Mem access counter:79
+Total Mem access cycle:8374
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 15 -A 0 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3591805
+Total L1 miss num:5268
+Total L1 replace num:1397
+Total L1 miss rate:0.029659
+Total Mem access counter:6253
+Total Mem access cycle:662818
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 15 -A 1 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3359249
+Total L1 miss num:4667
+Total L1 replace num:516
+Total L1 miss rate:0.026275
+Total Mem access counter:5061
+Total Mem access cycle:536466
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 15 -A 2 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3278109
+Total L1 miss num:4662
+Total L1 replace num:265
+Total L1 miss rate:0.026247
+Total Mem access counter:4813
+Total Mem access cycle:510178
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 15 -A 3 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3244005
+Total L1 miss num:4660
+Total L1 replace num:88
+Total L1 miss rate:0.026236
+Total Mem access counter:4699
+Total Mem access cycle:498094
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 15 -A 4 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3236920
+Total L1 miss num:4660
+Total L1 replace num:41
+Total L1 miss rate:0.026236
+Total Mem access counter:4675
+Total Mem access cycle:495550
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 15 -A 5 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3233105
+Total L1 miss num:4660
+Total L1 replace num:14
+Total L1 miss rate:0.026236
+Total Mem access counter:4662
+Total Mem access cycle:494172
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 16 -A 0 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3306876
+Total L1 miss num:4826
+Total L1 replace num:324
+Total L1 miss rate:0.027171
+Total Mem access counter:5040
+Total Mem access cycle:534240
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 16 -A 1 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3236144
+Total L1 miss num:4661
+Total L1 replace num:12
+Total L1 miss rate:0.026242
+Total Mem access counter:4672
+Total Mem access cycle:495232
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 16 -A 2 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3234086
+Total L1 miss num:4660
+Total L1 replace num:5
+Total L1 miss rate:0.026236
+Total Mem access counter:4665
+Total Mem access cycle:494490
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 16 -A 3 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3232560
+Total L1 miss num:4660
+Total L1 replace num:0
+Total L1 miss rate:0.026236
+Total Mem access counter:4660
+Total Mem access cycle:493960
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 16 -A 4 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3232560
+Total L1 miss num:4660
+Total L1 replace num:0
+Total L1 miss rate:0.026236
+Total Mem access counter:4660
+Total Mem access cycle:493960
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 16 -A 5 -BS 0
+Total L1 access counter:177618
+Total L1 access cycle:3232560
+Total L1 miss num:4660
+Total L1 replace num:0
+Total L1 miss rate:0.026236
+Total Mem access counter:4660
+Total Mem access cycle:493960
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 18 -A 3 -BS 6 -WT 1 -WA 0
+Total L1 access counter:177618
+Total L1 access cycle:10213132
+Total L1 miss num:3394
+Total L1 replace num:0
+Total L1 miss rate:0.019108
+Total Mem access counter:65511
+Total Mem access cycle:6944166
+
+./cache_simulator -I ../trace2019/trace2.txt -CS 18 -A 3 -BS 6 -WT 0 -WA 1
+Total L1 access counter:177618
+Total L1 access cycle:2420114
+Total L1 miss num:603
+Total L1 replace num:0
+Total L1 miss rate:0.003395
+Total Mem access counter:603
+Total Mem access cycle:63918
